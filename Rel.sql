@@ -28,4 +28,5 @@ VALUES
 DELETE FROM Customers WHERE customer_id = 1;
 
 -- Because of ON DELETE CASCADE:
+
 -- Orders with customer_id = 1 will be automatically deleted
