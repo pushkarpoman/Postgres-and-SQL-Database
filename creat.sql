@@ -5,7 +5,6 @@ CREATE TABLE users (
   password VARCHAR(250) NOT NULL
 );
 
-
 -- Inserting sample data
 INSERT INTO users (username, email, password)
 VALUES ('Rohh', 'rohn@example.com', 'securepassword123');
