@@ -14,7 +14,6 @@ CREATE TABLE IF NOT EXISTS addresses(
 );
 
 
-
 INSERT INTO accounts (account_id, balance) VALUES (1, 1000);
 INSERT INTO accounts (account_id, balance) VALUES (2, 2000);
 INSERT INTO addresses (address_id, account_id, street, city)
